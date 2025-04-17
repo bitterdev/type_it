@@ -1,0 +1,10 @@
+{
+  "name": "bitter/type_it",
+  "type": "concrete5-package",
+  "description": "TypeIt is a Concrete CMS block type that lets you effortlessly create animated typing effects using the powerful TypeIt JavaScript library.",
+  "autoload": {
+    "psr-4": {
+      "Bitter\\TypeIt\\": "src/Bitter/TypeIt"
+    }
+  }
+}
