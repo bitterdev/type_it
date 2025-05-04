@@ -21,6 +21,9 @@ $form = $app->make(Form::class);
 
 /** @noinspection PhpUnhandledExceptionInspection */
 View::element("dashboard/help_blocktypes", [], "type_it");
+
+/** @noinspection PhpUnhandledExceptionInspection */
+View::element("dashboard/did_you_know", [], "type_it");
 ?>
 <div class="form-group">
     <?php echo $form->label("displayTag", t('Display Property with Formatting')); ?>
